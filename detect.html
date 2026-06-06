@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PhishGuard | Detection</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="vanta-bg" class="detect-page">
+
+<nav class="navbar">
+  <a href="/" class="logo">Phish<span>Guard</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+  </ul>
+</nav>
+
+<main class="detect-main">
+
+  <div class="detect-container">
+
+    <h1>Phishing Detection</h1>
+
+  <div class="input-wrapper">
+    <textarea id="inputBox"
+      placeholder="Paste suspicious email, URL, SMS, or message content here..."
+      ondragover="event.preventDefault()"
+      ondrop="handleDrop(event)"></textarea>
+
+      <button class="send-btn" onclick="analyze()">➜</button>
+  </div>
+
+    <div id="loader" class="loader hidden">
+      <div class="spinner"></div>
+      <p>Analyzing with AI…</p>
+    </div>
+
+    <div id="result" class="result hidden">
+      <div id="resultText"></div>
+      <div id="summaryText" style="margin-top:15px; font-weight:400; opacity:0.9;"></div>
+    </div>
+
+  </div>
+
+</main>
+
+<!-- Three.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+<!-- Vanta -->
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+
+<script>
+VANTA.GLOBE({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0x050816,
+  color: 0x8f7bff,
+  color2: 0xffffff,
+  size: 1.1
+});
+</script>
+
+<script src="script.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/detect.css">
+</body>
+</html>
