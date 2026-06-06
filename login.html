@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | PhishGuard</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">Phish<span>Guard</span></div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+  </ul>
+</nav>
+
+<section class="auth-container">
+  <div class="auth-card">
+    <h1>Welcome Back</h1>
+    <p>Login to continue to PhishGuard</p>
+
+    <input type="email" id="loginEmail" placeholder="Email address" />
+<input type="password" id="loginPassword" placeholder="Password" />
+
+<button class="btn-primary auth-btn" onclick="loginUser()">Login</button>
+
+    <p class="auth-footer">
+      Don’t have an account?
+      <a href="signup.html">Sign up</a>
+    </p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
