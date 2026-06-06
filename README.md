@@ -1,1 +1,9 @@
-
+<img width="1241" height="1755" alt="phishing_page-0001" src="https://github.com/user-attachments/assets/4125ba10-7307-49d2-ac97-e3ca069f63a6" />
+<img width="1241" height="1755" alt="phishing_page-0002" src="https://github.com/user-attachments/assets/0e118c1f-25d0-4640-8b80-b18977f4ccfc" />
+<img width="1241" height="1755" alt="phishing_page-0003" src="https://github.com/user-attachments/assets/8a3ccf94-9cd2-4f06-89b2-6f0881d2c686" />
+<img width="1241" height="1755" alt="phishing_page-0004" src="https://github.com/user-attachments/assets/7c52d530-758b-4f7c-a7d2-544e6ad28e7c" />
+<img width="1241" height="1755" alt="phishing_page-0005" src="https://github.com/user-attachments/assets/5d92f326-381f-4f16-a83e-8043e5da9f00" />
+<img width="1241" height="1755" alt="phishing_page-0006" src="https://github.com/user-attachments/assets/755f02b5-adc5-44d8-9216-0e141154bc2d" />
+<img width="1241" height="1755" alt="phishing_page-0006" src="https://github.com/user-attachments/assets/755f02b5-adc5-44d8-9216-0e141154bc2d" />
+<img width="1241" height="1755" alt="phishing_page-0008" src="https://github.com/user-attachments/assets/c28d80c9-30c1-415b-ad38-602990717ac3" />
+<img width="1241" height="1755" alt="phishing_page-0009" src="https://github.com/user-attachments/assets/65d09563-1c26-427a-b42c-dc0870abbd1f" />
