@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PhishGuard | Detect Phishing Instantly</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Animated Background -->
+<div class="bg-animation">
+  <span class="orb orb1"></span>
+  <span class="orb orb2"></span>
+  <span class="orb orb3"></span>
+</div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+  <div class="logo">Phish<span>Guard</span></div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+
+    <!-- Auth Links -->
+    <li id="loginNav"><a href="login.html" class="btn-outline">Login</a></li>
+    <li id="signupNav"><a href="signup.html" class="btn-primary">Sign Up</a></li>
+
+    <!-- User Info -->
+    <li id="userNav" style="display:none;">
+      <span id="usernameDisplay"></span>
+      <button onclick="logoutUser()" class="logout-btn" style="margin-left:10px;">
+        Logout
+      </button>
+    </li>
+  </ul>
+</nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="bg-particles">
+  <span style="left:10%; animation-delay:0s"></span>
+  <span style="left:30%; animation-delay:4s"></span>
+  <span style="left:50%; animation-delay:8s"></span>
+  <span style="left:70%; animation-delay:12s"></span>
+  <span style="left:90%; animation-delay:16s"></span>
+</div>
+
+    <div class="hero-content">
+      <h1>Detect Phishing. <span>Instantly.</span></h1>
+      <p>Smart AI that keeps you safe from phishing emails and malicious websites in real time.</p>
+
+      <div class="hero-buttons">
+        <a href="detect.html" class="btn-primary">Start Detection</a>
+        <a href="#services" class="btn-outline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+<section class="why">
+  <h2>Why Choose PhishGuard?</h2>
+
+  <div class="why-grid">
+
+    <div class="why-item">
+      <h3>⚡ Instant AI Detection</h3>
+      <p>
+        Get phishing detection results in seconds using optimized
+        machine learning models designed for real-time performance.
+      </p>
+    </div>
+
+    <div class="why-item">
+      <h3>🧠 Intelligent Explanations</h3>
+      <p>
+        Not just predictions — receive structured AI explanations
+        with risk levels and recommended security actions.
+      </p>
+    </div>
+
+    <div class="why-item">
+      <h3>🔐 Multi-Layer Protection</h3>
+      <p>
+        Detect threats across Email, SMS, URLs, and Headers —
+        all from a single unified interface.
+      </p>
+    </div>
+
+    <div class="why-item">
+      <h3>🚀 Modern & Lightweight</h3>
+      <p>
+        Built with performance-first architecture ensuring
+        fast loading and smooth user experience.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-scroll-wrapper">
+  <div class="service-cards auto-scroll">
+
+    <div class="card">
+      <h3>Email Phishing Detection</h3>
+      <p>
+        Analyze suspicious emails using NLP and machine learning
+        to detect phishing patterns and scam attempts.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Website URL Detection</h3>
+      <p>
+        Instantly verify URLs using AI-powered phishing detection
+        models to identify malicious domains and typosquatting attacks.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>SMS Scam Detection</h3>
+      <p>
+        Detect fraudulent SMS messages including prize scams,
+        fake bank alerts, and urgent action phishing attempts.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Email Header Analyzer</h3>
+      <p>
+        Analyze SPF, DKIM, return-path, and suspicious routing
+        to identify spoofed or forged email headers.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>AI-Powered Explanation Engine</h3>
+      <p>
+        Get structured AI explanations including risk level,
+        attack indicators, and recommended security actions.
+      </p>
+    </div>
+
+  </div>
+</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About PhishGuard</h2>
+    <p>
+      PhishGuard is an AI-powered phishing detection system designed to protect users
+      from fraudulent emails and malicious websites. Built using machine learning,
+      cybersecurity principles, and modern web technologies.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <!-- HOW PHISHING WORKS -->
+
+    
+<section class="phishing-info">
+  <h2>How Phishing Attacks Work</h2>
+
+  <div class="info-row">
+    
+    <div class="info-text">
+      <h3>1. Fake Email or Message</h3>
+      <p>
+        Attackers send emails or SMS messages pretending to be trusted brands like banks,
+        Amazon, or PayPal. These messages create urgency to trick users into clicking
+        malicious links.
+      </p>
+    </div>
+  </div>
+
+  <div class="info-row reverse">
+    <div class="info-text">
+      <h3>2. Fake Login Page</h3>
+      <p>
+        Victims are redirected to fake websites that look identical to legitimate platforms.
+        Once login credentials are entered, attackers steal sensitive information instantly.
+      </p>
+    </div>
+  </div>
+
+  <div class="info-row">
+    <div class="info-text">
+      <h3>3. Urgency & Fear Tactics</h3>
+      <p>
+        Messages often include threats like account suspension or prize rewards to force
+        immediate action without careful verification.
+      </p>
+    </div>
+  </div>
+
+<div class="footer-content">
+
+    <div class="footer-section">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">Security Guidelines</a></li>
+        <li><a href="#">Report a Bug</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <ul>
+        <li>Email: support@phishguard.ai</li>
+        <li>Location: India</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+    <p>© 2026 PhishGuard. Built with  using AI & Cybersecurity.</p>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
